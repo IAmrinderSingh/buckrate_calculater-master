@@ -1,0 +1,76 @@
+{
+    "name": "Buckrate",
+    "short_name": "Buckrate",
+    "display": "standalone",
+    "background_color": "#EFEBF5",
+    "theme_color": "#1a0a4f",
+    "description": "Calculate price of your goat or sheep",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "start_url": "./?pf=pwa",
+    "id": "com.app.buckrate",
+    "dir": "ltr",
+    "lang": "en",
+    "scope_extensions": [
+        {
+            "origin": "*.buckrate.com"
+        },
+        {
+            "origin": "buckrate.com"
+        },
+        {
+            "origin": "calculator.buckrate.com"
+        }
+    ],
+    "categories": [
+        "education",
+        "goat",
+        "sheep",
+        "livestock weight calculator"
+    ],
+    "launch_handler": {
+        "client_mode": [
+            "navigate-existing",
+            "auto"
+        ]
+    },
+    "display_override": [
+        "window-controls-overlay"
+    ],
+    "edge_side_panel": {
+        "preferred_width": 400
+    },
+    "features": [
+        "Calculate weight of goat",
+        "Calculate weight of sheep",
+        "Livestock calculate weight",
+        "Sell your goat online",
+        "Sell your sheep online"
+    ],
+    "icons": [
+        {
+            "src": "icons/ms-icon-310x310.png",
+            "sizes": "310x310"
+        },
+        {
+            "src": "icons/android-icon-192x192.png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "icons/android-icon-144x144.png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "icons/android-icon-96x96.png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "icons/android-icon-72x72.png",
+            "sizes": "72x72"
+        },
+        {
+            "src": "icons/android-icon-48x48.png",
+            "sizes": "48x48"
+        }
+    ]
+}

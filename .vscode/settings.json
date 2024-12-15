@@ -1,0 +1,12 @@
+{
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit",
+        "source.organizeImports": "explicit"
+    },
+    "editor.formatOnSave": true,
+    "editor.autoClosingBrackets": "always",
+    "cloudcode.duetAI.inlineSuggestions.enableAuto": true,
+    "cSpell.words": [
+        "buckrate"
+    ]
+}
